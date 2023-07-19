@@ -7,3 +7,26 @@
   letter-spacing: 0.2em;
   user-select: none;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+
+.footer__logo__container > a > img {
+  transition: rotate 0.4s;
+}
+
+.footer__logo__container > a > img:hover {
+  rotate: 360deg;
+}
