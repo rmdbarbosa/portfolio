@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="description" content="Portfolio Rafael Medeiros Barbosa">
     <title>Rafael Portfolio</title>
   </head>
   <body>
@@ -37,7 +34,7 @@
           </li>
           <li><a class="header__resume btn" href="/Front BR - CV Rafael Barbosa.pdf" target="_blank">Resume</a></li>
         </ul>
-        <button class="header__bars">
+        <button aria-label="header burguer" class="header__burguer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -94,7 +91,12 @@
     <!-- End of Mobile Navigation -->
     <main>
       <section class="hero container">
-        <img class="hero__img" src="/hero.png" alt="profile picture" />
+        <img class="hero__img" src="/hero.webp"
+        alt="profile picture"
+        height="96px"
+        width="96px"
+        
+        />
         <h2 class="hero__subtitle">Hi, I'm Rafael</h2>
         <h1 class="hero__title">
           FRONT-END <br />
@@ -147,7 +149,7 @@
           <img 
           class="about__img lazy loading"
           src="https://fakeimg.pl/1200x1600"
-          data-src="/about.jpg"
+          data-src="/about.webp"
           alt="Profile picture" />
         </div>
       </section>
@@ -156,7 +158,7 @@
         <div class="featured__wrapper">
 
           <h2 class="featured__title">Portfolio</h2>
-          <a class="featured__link" href="#"
+          <a aria-label="featured project" class="featured__link" href="#"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -202,22 +204,22 @@
         <div class="featured__img-container">
 
           <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio1.png" alt="portfolioImg-1">
+            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio1.webp" alt="portfolioImg-1">
           </div>
           <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio2.png" alt="portfolioImg-2">
+            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio2.webp" alt="portfolioImg-2">
           </div>
           <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio3.png" alt="portfolioImg-3">
+            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio3.webp" alt="portfolioImg-3">
           </div>
           <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio4.png" alt="portfolioImg-4">
+            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio4.webp" alt="portfolioImg-4">
           </div>
           <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio5.png" alt="portfolioImg-5">
+            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio5.webp" alt="portfolioImg-5">
           </div>
           <div class="featured__img-wrapper">
-            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio6.png" alt="portfolioImg-6">
+            <img class="lazy loading" src="https://fakeimg.pl/1920x968" data-src="/portfolio6.webp" alt="portfolioImg-6">
           </div>
           
         </div>
@@ -233,7 +235,7 @@
           <!-- Project 1 -->
           <h3 class="work__project-title">ReactNotes</h3>
           <div class="work__img-wrapper work__image1">
-            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/notesSS.png" alt="ReactNotes Site">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/notesSS.webp" alt="ReactNotes Site">
           </div>
           <div class="work__project work__content1">
             <h3 class="work__project-subtitle">React Notes</h3>
@@ -246,7 +248,7 @@
           <!-- Project 2 -->
           <h3 class="work__project-title">Tenzies</h3>
           <div class="work__img-wrapper work__image2">
-            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/tenziesSS.png" alt="Tenzies Site">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/tenziesSS.webp" alt="Tenzies Site">
           </div>
           <div class="work__project work__content2">
             <h3 class="work__project-subtitle">Tenzies</h3>
@@ -257,7 +259,7 @@
           <!-- Project 3 -->
           <h3 class="work__project-title">Shopping Cart</h3>
           <div class="work__img-wrapper work__image3">
-            <img class="lazy loading" src="https://shopping-cart-virid-mu.vercel.app/" data-src="/shoppingSS.png" alt="Shopping Cart Site">
+            <img class="lazy loading" src="https://shopping-cart-virid-mu.vercel.app/" data-src="/shoppingSS.webp" alt="Shopping Cart Site">
           </div>
           <div class="work__project work__content3">
             <h3 class="work__project-subtitle">Shopping Cart</h3>
@@ -269,7 +271,7 @@
             <h3 class="work__project-title">Weather APP</h3>
             <div class="work__img-wrapper work__image4">
     
-              <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/weatherSS.png" alt="Weather APP Site">
+              <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/weatherSS.webp" alt="Weather APP Site">
             </div>
             <div class="work__project work__content4">
               <h3 class="work__project-subtitle">Weather APP</h3>
@@ -280,7 +282,7 @@
           <!-- Project 5 -->
           <h3 class="work__project-title">Library APP</h3>
           <div class="work__img-wrapper work__image5">
-            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/librarySS.png" alt="Library APP Site">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/librarySS.webp" alt="Library APP Site">
           </div>
           <div class="work__project work__content5">
             <h3 class="work__project-subtitle">Library APP</h3>
@@ -291,7 +293,7 @@
           <!-- Project 6 -->
           <h3 class="work__project-title">Memory Card APP</h3>
           <div class="work__img-wrapper work__image6">
-            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/memorygameSS.png" alt="Memory Card Site">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/memorygameSS.webp" alt="Memory Card Site">
           </div>
           <div class="work__project work__content6">
             <h3 class="work__project-subtitle">Memory Card APP</h3>
@@ -311,8 +313,8 @@
       <h3 class="footer__title">~ Rafael Medeiros Barbosa ~</h3>
       <div class="footer__logo__container">
         
-        <a href="https://github.com/rmdbarbosa" target="_blank"><img class="footer__logo" src="github-mark.png" alt="GitHub Logo" style="width: 16px;"></a>
-        <a href="https://www.linkedin.com/in/rbarbosa94/" target="_blank"><img class="footer__logo" src="linkedin.png" alt="Linkedin Logo" ></a>
+        <a href="https://github.com/rmdbarbosa" target="_blank"><img class="footer__logo" src="github-mark.webp" alt="GitHub Logo" style="width: 16px;"></a>
+        <a href="https://www.linkedin.com/in/rbarbosa94/" target="_blank"><img class="footer__logo" src="linkedin.webp" alt="Linkedin Logo" ></a>
       </div>
     </footer>
     <script type="module" src="./src/main.js"></script>

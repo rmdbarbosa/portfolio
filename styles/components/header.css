@@ -12,7 +12,7 @@
   display: none;
 }
 
-.header__bars {
+.header__burguer {
   color: var(--clr-light);
   width: var(--size-2xl);
   height: var(--size-2xl);
@@ -65,7 +65,7 @@
     font-size: var(--size-xs);
   }
 
-  .header__bars {
+  .header__burguer {
     display: none;
   }
 }
